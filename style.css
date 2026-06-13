@@ -1,0 +1,35 @@
+body{
+    background:#0d1117;
+    color:white;
+    font-family:Arial, sans-serif;
+    max-width:900px;
+    margin:auto;
+    padding:30px;
+}
+
+h1{
+    color:#58a6ff;
+    border-bottom:2px solid #58a6ff;
+    padding-bottom:10px;
+}
+
+h2{
+    color:#58a6ff;
+    margin-top:30px;
+}
+
+ul{
+    list-style:none;
+    padding:0;
+}
+
+li{
+    background:#161b22;
+    padding:10px;
+    margin:5px 0;
+    border-radius:8px;
+}
+
+p{
+    line-height:1.6;
+}
