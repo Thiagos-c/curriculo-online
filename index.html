@@ -1,308 +1,269 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thiago Cavalari | Portfólio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Thiago Cavalari | Portfólio</title>
 
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-        body {
-            background: #0d1117;
-            color: #f0f6fc;
-            font-family: 'Segoe UI', sans-serif;
-        }
+body {
+    background: #0d1117;
+    color: #f0f6fc;
+    font-family: Arial, sans-serif;
+}
 
-        .container {
-            max-width: 1100px;
-            margin: auto;
-            padding: 40px 20px;
-        }
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 40px 20px;
+}
 
-        .hero {
-            text-align: center;
-            margin-bottom: 40px;
-        }
+.hero {
+    text-align: center;
+    margin-bottom: 45px;
+}
 
-        .hero img {
-            width: 220px;
-            height: 220px;
-            border-radius: 50%;
-            object-fit: cover;
-            border: 5px solid #58a6ff;
-            box-shadow: 0 0 30px rgba(88, 166, 255, .4);
-        }
+.hero img {
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center top;
+    border: 5px solid #58a6ff;
+    box-shadow: 0 0 30px rgba(88,166,255,0.5);
+    background: #161b22;
+}
 
-        .hero h1 {
-            margin-top: 20px;
-            font-size: 42px;
-            color: #58a6ff;
-        }
+.hero h1 {
+    margin-top: 20px;
+    font-size: 42px;
+    color: #58a6ff;
+}
 
-        .hero h3 {
-            margin-top: 10px;
-            color: #c9d1d9;
-            font-weight: 400;
-        }
+.hero h3 {
+    margin-top: 10px;
+    font-weight: 400;
+}
 
-        .hero p {
-            margin-top: 10px;
-            color: #8b949e;
-        }
+.hero p {
+    margin-top: 10px;
+    color: #c9d1d9;
+}
 
-        .card {
-            background: #161b22;
-            margin-bottom: 25px;
-            padding: 25px;
-            border-radius: 15px;
-            border: 1px solid #30363d;
-            transition: .3s;
-        }
+.card {
+    background: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 16px;
+    padding: 25px;
+    margin-bottom: 25px;
+}
 
-        .card:hover {
-            transform: translateY(-4px);
-        }
+.card:hover {
+    transform: translateY(-3px);
+    transition: 0.3s;
+}
 
-        h2 {
-            color: #58a6ff;
-            margin-bottom: 20px;
-        }
+h2 {
+    color: #58a6ff;
+    margin-bottom: 15px;
+}
 
-        p {
-            line-height: 1.8;
-        }
+p {
+    line-height: 1.8;
+}
 
-        .skills {
-            display: grid;
-            gap: 15px;
-        }
+.skill {
+    margin-bottom: 18px;
+}
 
-        .skill-name {
-            margin-bottom: 5px;
-            font-weight: bold;
-        }
+.skill strong {
+    display: block;
+    margin-bottom: 6px;
+}
 
-        .bar {
-            height: 12px;
-            background: #30363d;
-            border-radius: 10px;
-            overflow: hidden;
-        }
+.barra {
+    height: 12px;
+    background: #30363d;
+    border-radius: 20px;
+    overflow: hidden;
+}
 
-        .fill {
-            height: 100%;
-            background: #58a6ff;
-        }
+.progresso {
+    height: 100%;
+    background: #58a6ff;
+}
 
-        .projeto {
-            background: #21262d;
-            padding: 15px;
-            border-radius: 10px;
-            margin-bottom: 12px;
-        }
+.projeto {
+    background: #21262d;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 12px;
+}
 
-        .projeto strong {
-            color: #58a6ff;
-        }
+.projeto strong {
+    color: #58a6ff;
+}
 
-        .contato a {
-            color: #58a6ff;
-            text-decoration: none;
-        }
+.contato a {
+    color: #58a6ff;
+    text-decoration: none;
+}
 
-        footer {
-            text-align: center;
-            margin-top: 40px;
-            color: #8b949e;
-        }
+footer {
+    text-align: center;
+    color: #8b949e;
+    margin-top: 35px;
+}
 
-        @media(max-width:768px) {
-            .hero h1 {
-                font-size: 32px;
-            }
+@media(max-width: 768px) {
+    .hero h1 {
+        font-size: 32px;
+    }
 
-            .hero img {
-                width: 180px;
-                height: 180px;
-            }
-        }
-    </style>
+    .hero img {
+        width: 190px;
+        height: 190px;
+    }
+}
+</style>
 </head>
 
 <body>
 
-    <div class="container">
+<div class="container">
 
-        <section class="hero">
+    <section class="hero">
+        <img src="./foto.png" alt="Thiago Cavalari">
 
-            <img src="foto.jpg" alt="Thiago Cavalari">
+        <h1>Thiago Cavalari</h1>
+        <h3>Análise e Desenvolvimento de Sistemas</h3>
 
-            <h1>Thiago Cavalari</h1>
+        <p>Python • SQL • HTML • CSS • GitHub</p>
+        <p>Em transição para a área de Tecnologia 🚀</p>
+    </section>
 
-            <h3>Análise e Desenvolvimento de Sistemas</h3>
+    <section class="card">
+        <h2>👨‍💻 Sobre Mim</h2>
 
-            <p>
-                Python • SQL • HTML • CSS • GitHub
-            </p>
+        <p>
+            Tenho 26 anos e atualmente atuo na área de segurança patrimonial e controle de acesso.
+            Estou em processo de transição para Tecnologia, cursando Análise e Desenvolvimento de Sistemas
+            e desenvolvendo projetos próprios para construir experiência prática em programação e desenvolvimento web.
+        </p>
 
-            <p>
-                Em transição para a área de Tecnologia 🚀
-            </p>
+        <br>
 
-        </section>
+        <p>
+            Meu objetivo é conquistar minha primeira oportunidade na área de TI até outubro,
+            aplicando disciplina, aprendizado contínuo e experiência adquirida em ambientes operacionais
+            de alta responsabilidade.
+        </p>
+    </section>
 
-        <section class="card">
+    <section class="card">
+        <h2>🎯 Objetivo Profissional</h2>
 
-            <h2>👨‍💻 Sobre Mim</h2>
+        <p>
+            Ingressar na área de Tecnologia como Desenvolvedor Júnior, Suporte Técnico,
+            Service Desk ou Analista de Suporte, construindo experiência através de projetos,
+            certificações e aprendizado contínuo.
+        </p>
+    </section>
 
-            <p>
-                Tenho 26 anos e atualmente atuo na área de segurança patrimonial e controle de acesso.
-                Estou em processo de transição para Tecnologia, cursando Análise e Desenvolvimento de Sistemas e
-                desenvolvendo projetos próprios para construir experiência prática em programação e desenvolvimento web.
-            </p>
+    <section class="card">
+        <h2>🛠️ Conhecimentos</h2>
 
-            <br>
+        <div class="skill">
+            <strong>HTML</strong>
+            <div class="barra"><div class="progresso" style="width:75%"></div></div>
+        </div>
 
-            <p>
-                Meu objetivo é conquistar minha primeira oportunidade na área de TI até outubro, aplicando disciplina,
-                aprendizado contínuo e experiência adquirida em ambientes operacionais de alta responsabilidade.
-            </p>
+        <div class="skill">
+            <strong>CSS</strong>
+            <div class="barra"><div class="progresso" style="width:65%"></div></div>
+        </div>
 
-        </section>
+        <div class="skill">
+            <strong>GitHub</strong>
+            <div class="barra"><div class="progresso" style="width:70%"></div></div>
+        </div>
 
-        <section class="card">
+        <div class="skill">
+            <strong>Python</strong>
+            <div class="barra"><div class="progresso" style="width:40%"></div></div>
+        </div>
 
-            <h2>🎯 Objetivo Profissional</h2>
+        <div class="skill">
+            <strong>SQL</strong>
+            <div class="barra"><div class="progresso" style="width:35%"></div></div>
+        </div>
+    </section>
 
-            <p>
-                Ingressar na área de Tecnologia como Desenvolvedor Júnior, Suporte Técnico,
-                Service Desk ou Analista de Suporte, construindo experiência através de projetos,
-                certificações e aprendizado contínuo.
-            </p>
+    <section class="card">
+        <h2>💼 Experiência Profissional</h2>
 
-        </section>
+        <p>
+            Profissional com experiência em controle de acesso, atendimento ao público,
+            monitoramento, elaboração de relatórios, registro de ocorrências,
+            fiscalização de normas internas e suporte operacional.
+        </p>
+    </section>
 
-        <section class="card">
+    <section class="card">
+        <h2>🚀 Projetos</h2>
 
-            <h2>🛠️ Conhecimentos</h2>
+        <div class="projeto">
+            <strong>Currículo Online</strong><br>
+            Projeto desenvolvido utilizando HTML e CSS.
+        </div>
 
-            <div class="skills">
+        <div class="projeto">
+            <strong>Calculadora Web</strong><br>
+            Projeto para prática de JavaScript.
+        </div>
 
-                <div>
-                    <div class="skill-name">HTML</div>
-                    <div class="bar">
-                        <div class="fill" style="width:75%"></div>
-                    </div>
-                </div>
+        <div class="projeto">
+            <strong>Lista de Tarefas</strong><br>
+            Aplicação para organização de atividades.
+        </div>
 
-                <div>
-                    <div class="skill-name">CSS</div>
-                    <div class="bar">
-                        <div class="fill" style="width:65%"></div>
-                    </div>
-                </div>
+        <div class="projeto">
+            <strong>Sistema de Registro de Ocorrências</strong><br>
+            Projeto baseado na minha experiência profissional.
+        </div>
+    </section>
 
-                <div>
-                    <div class="skill-name">GitHub</div>
-                    <div class="bar">
-                        <div class="fill" style="width:70%"></div>
-                    </div>
-                </div>
+    <section class="card contato">
+        <h2>📞 Contato</h2>
 
-                <div>
-                    <div class="skill-name">Python</div>
-                    <div class="bar">
-                        <div class="fill" style="width:40%"></div>
-                    </div>
-                </div>
+        <p>📍 São José dos Campos - SP</p>
 
-                <div>
-                    <div class="skill-name">SQL</div>
-                    <div class="bar">
-                        <div class="fill" style="width:35%"></div>
-                    </div>
-                </div>
+        <p>
+            GitHub:
+            <a href="https://github.com/Thiagos-C" target="_blank">
+                github.com/Thiagos-C
+            </a>
+        </p>
 
-            </div>
+        <p>
+            LinkedIn:
+            <a href="#" target="_blank">
+                Em construção
+            </a>
+        </p>
+    </section>
 
-        </section>
+    <footer>
+        © 2026 | Thiago Cavalari
+    </footer>
 
-        <section class="card">
-
-            <h2>💼 Experiência Profissional</h2>
-
-            <p>
-                Profissional com experiência em controle de acesso, atendimento ao público,
-                monitoramento, elaboração de relatórios, registro de ocorrências,
-                fiscalização de normas internas e suporte operacional.
-            </p>
-
-        </section>
-
-        <section class="card">
-
-            <h2>🚀 Projetos</h2>
-
-            <div class="projeto">
-                <strong>Currículo Online</strong><br>
-                Projeto desenvolvido utilizando HTML e CSS.
-            </div>
-
-            <div class="projeto">
-                <strong>Calculadora Web</strong><br>
-                Projeto para prática de JavaScript.
-            </div>
-
-            <div class="projeto">
-                <strong>Lista de Tarefas</strong><br>
-                Aplicação para organização de atividades.
-            </div>
-
-            <div class="projeto">
-                <strong>Sistema de Registro de Ocorrências</strong><br>
-                Projeto baseado na minha experiência profissional.
-            </div>
-
-        </section>
-
-        <section class="card contato">
-
-            <h2>📞 Contato</h2>
-
-            <p>📍 São José dos Campos - SP</p>
-
-            <br>
-
-            <p>
-                GitHub:
-                <a href="https://github.com/Thiagos-C" target="_blank">
-                    github.com/Thiagos-C
-                </a>
-            </p>
-
-            <br>
-
-            <p>
-                LinkedIn:
-                <a href="#" target="_blank">
-                    Em construção
-                </a>
-            </p>
-
-        </section>
-
-        <footer>
-            © 2026 | Thiago Cavalari
-        </footer>
-
-    </div>
+</div>
 
 </body>
-
 </html>
